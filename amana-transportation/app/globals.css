@@ -1,0 +1,29 @@
+/* ----------------------------------------------------- */
+/* --- 1. MANDATORY: Tailwind CSS Import (v4 syntax) --- */
+/* ----------------------------------------------------- */
+@import "tailwindcss";
+
+/* ----------------------------------------------------- */
+/* --- 2. Leaflet Map CSS Import & Fixes --- */
+/* ----------------------------------------------------- */
+@import 'leaflet/dist/leaflet.css';
+
+/* Fix for map container height */
+.leaflet-container {
+    height: 100%; 
+    width: 100%;
+}
+
+/* Custom Bus Icon Style */
+.bus-icon {
+    font-size: 24px;
+    color: #10B981; /* Tailwind Green-500 */
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background: none !important;
+    border: none !important;
+    padding: 0;
+}
+.bus-icon svg {
+    width: 32px;
+    height: 32px;
+}

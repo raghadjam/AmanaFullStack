@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Override dark mode to ensure light theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light;
+  }
+}
+
+/* Ensure light background without conflicting with Tailwind */
+html {
+  background-color: #f9fafb;
+}
