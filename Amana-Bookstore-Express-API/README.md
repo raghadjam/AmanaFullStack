@@ -124,22 +124,6 @@ PUT    /api/reviews/:id        # Update review
 DELETE /api/reviews/:id        # Delete review
 ```
 
-## Data Characteristics
-
-### Academic Publishers Featured
-- Al-Biruni Academic Press
-- Ibn Sina Publications  
-- Al-Sufi Astronomical Society
-
-### Subject Areas
-- Classical Mechanics
-- Quantum Physics
-- Astrophysics and Astronomy
-- Advanced Physics
-
-### Price Range
-- $89.99 - $125.50 (Academic textbook pricing)
-
 ## Next Steps
 
 1. **Server Development**: Implement Express.js server with routing
