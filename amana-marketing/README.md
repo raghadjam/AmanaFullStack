@@ -42,7 +42,8 @@ A comprehensive marketing analytics dashboard built with Next.js that provides r
 - **Data Source**: External API integration with Amana Bootcamp
 
 ## Live Demo
-(https://amana-marketing-2386.vercel.app/)
+https://amana-marketing-2386.vercel.app/
+
 
 
 ## Getting Started
