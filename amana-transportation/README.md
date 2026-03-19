@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚍 Amana Transportation
 
-## Getting Started
+Amana Transportation is a Next.js application for monitoring bus operations and system status. It provides a centralized dashboard that gives a clear overview of what is happening across all buses.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Dashboard overview of all buses
+- Key metrics such as active buses, maintenance status, and utilization
+- Incident tracking to monitor current problems
+- Centralized view instead of tracking one bus at a time
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Data and Architecture
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application uses a centralized data file (`lib/data.ts`) to simulate system data, including:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Overall system status
+- Bus activity and utilization
+- Active incidents
 
-## Learn More
+This data is displayed on the main page (`app/page.tsx`) through a dashboard interface. The structure separates data from UI components, making the app easier to manage and extend.
 
-To learn more about Next.js, take a look at the following resources:
+## Implementation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Built using **Next.js (App Router)**
+- Component-based structure with **React**
+- Server-side rendering
+- Designed for easy integration with real APIs
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Purpose
 
-## Deploy on Vercel
+This project was built to improve usability by moving from tracking a single bus to providing a complete view of the system.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js
+- React
+- TypeScript / JavaScript
+
+## Live Demo
+
+[View the deployed app](https://amana-transportation-blond.vercel.app/)
