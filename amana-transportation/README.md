@@ -1,4 +1,4 @@
-# 🚍 Amana Transportation
+# Amana Transportation
 
 Amana Transportation is a Next.js application for monitoring bus operations and system status. It provides a centralized dashboard that gives a clear overview of what is happening across all buses.
 
