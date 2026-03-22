@@ -18,6 +18,8 @@ An AI-powered study assistant that helps students efficiently learn by generatin
 * **Dark Mode:** Toggle between light and dark themes for a comfortable study experience.
 
 ---
+## Deployed App
+https://studyboostai.onrender.com/
 
 ## Installation & Setup
 
