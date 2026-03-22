@@ -21,6 +21,7 @@ An AI-powered study assistant that helps students efficiently learn by generatin
 ## Deployed App
 https://studyboostai.onrender.com/
 
+
 ## Installation & Setup
 
 1. Clone the repository:
